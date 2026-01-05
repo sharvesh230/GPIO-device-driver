@@ -1,9 +1,7 @@
 /*
  * stm32f401xx_gpio_drivers.c
  *
- *  Created on: Jun 28, 2025
- *  Author: santosh
- */
+ 
 
 #include "stm32f401xx_gpio_drivers.h"
 
@@ -11,7 +9,7 @@
 /******************************************************************************************************
  *  @fn				 	GPIO_Peripheral_Clock_Control
  *
- *  @brief				This function enables or diables the peripheral clock for the specified GPIO port.
+ *  @brief				This function enables or disables the peripheral clock for the specified GPIO port.
  *
  *  @param[in]			pGPIOx - Pointer to the GPIO port base address.
  *  @param[in]			EnorDi - Enable or Disable the clock (The macro ENABLE will make it enable and macro DISABLE will make it disable).
